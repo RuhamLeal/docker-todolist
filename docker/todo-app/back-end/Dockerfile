@@ -1,13 +1,17 @@
-FROM node:14
+FROM node:14-alpine
 
 WORKDIR /app
 
-ADD node_modules.tar.gz .
+EXPOSE 3000
 
-COPY . .
+COPY package.json .
+
+COPY package-lock.json .
 
 RUN npm install
 
-EXPOSE 3001
+COPY . .
+
+ADD ./node_modules.tar.gz .
 
 CMD ["npm", "start"]
