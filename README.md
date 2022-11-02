@@ -1,10 +1,42 @@
-# :construction: README em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto.
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+# docker-todolist
+
+In this project I was in charge of all docker commands in the docker-commands paste, the Dockerfile and docker-compose, the rest was provided by @trybe    
+
+The focus of the project was learning and using Docker, Dockerfile and docker-compose
+
+
+# Table of contents
+
+- [Getting Started](#getting-started)
+- [Contact](#contact)
+
+## Getting Started
+
+To acess the code, just need to clone the repository:
+
+```
+git clone https://github.com/RuhamLeal/docker-todolist.git
+```
+```
+cd docker-todolist
+```
+Install dependencies
+```
+npm install
+```
+Run docker-compose
+```
+docker-compose up -d
+```
+
+
+### More Info
+
+This Project focus was Docker and docker-compose
+
+### Contact
+
+Ruham Leal    
+Email: ruhamxlpro@hotmail.com    
+Linkedin: https://www.linkedin.com/in/ruham-leal-dos-santos-sutil-38a837243/
+[Trybe](https://www.betrybe.com/)
